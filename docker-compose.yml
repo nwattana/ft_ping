@@ -1,0 +1,22 @@
+services:
+  mc1:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: mc1-1
+    restart: always
+
+  mc2:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: mc2-1
+    restart: always
+
+  mc3:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: mc3-1
+    restart: always
+
